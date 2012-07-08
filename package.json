@@ -1,0 +1,21 @@
+{
+    "name": "decorator"
+  , "version": "0.0.1"
+  , "description": "Decorators. POW! Arrghhh!"
+  , "keywords": ["decorator", "decorators", "decorator pattern"]
+  , "author": "Veselin Todorov <hi@vesln.com>"
+  , "devDependencies": {
+      "mocha": "*"
+    , "chai": "*"
+  }
+  , "repository" : {
+      "type" : "git",
+      "url" : "http://github.com/vesln/decorator.git"
+  }
+  , "homepage": "http://vesln.github.com/decorator"
+  , "scripts": {
+      "test": "make test"
+  }
+  , "main": "lib/decorator"
+  , "engines": { "node": ">= 0.6.0 " }
+}
