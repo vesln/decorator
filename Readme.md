@@ -8,7 +8,7 @@
 
 ## Requirements
 
-- Node.js > 0.6
+- Node.js >= 0.6.0
 
 ## Install
 
