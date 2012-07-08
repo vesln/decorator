@@ -6,4 +6,11 @@ test:
 	--reporter $(REPORTER) \
 	$(TESTS)
 
-.PHONY: test
+browser: $(SRC)
+	@node support/compile $^
+
+clean:
+	@rm -f decorator.js
+	@rm -f decorator.min.js
+
+.PHONY: test browser clean

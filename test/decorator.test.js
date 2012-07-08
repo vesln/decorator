@@ -5,16 +5,16 @@
  * MIT License.
  */
 
+if (!chai) {
+  var chai = require('chai');
+  var Decorator = require('..');
+  var inherits = require('super');
+}
+
 /**
  * Support.
  */
-var should = require('chai').should();
-var inherits = require('util').inherits;
-
-/**
- * Subject.
- */
-var Decorator = require('../');
+var should = chai.should();
 
 /**
  * Base Decorator. Used as a fixture.

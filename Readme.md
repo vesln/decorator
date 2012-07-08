@@ -12,8 +12,26 @@
 
 ## Install
 
+### Node
+
 ```
 $ npm install decorator
+```
+
+### Browser
+
+Uncompressed and minified versions are available in the repository.
+
+Production version:
+
+```html
+<script src="decorator.min.js"></script>
+```
+
+Development version:
+
+```html
+<script src="decorator.js"></script>
 ```
 
 ## Tests
@@ -30,12 +48,15 @@ Run the test case.
 $ make test
 ```
 
+A browser suite is also available at `test/browser/index.html`. In order to
+run it, just open it in your browser. The same test definitions are used in both contexts.
+
 ## Contribution
 
 I'd love to merge your pull request! But you have to:
 
 - Use JavaScript, not CoffeeScript or similar
-- Provide a test case for the feature/bug
+- Provide a test cases for the feature/bug
 - Stick with the current coding style
 - Document your code
 - Update the Readme file if needed
